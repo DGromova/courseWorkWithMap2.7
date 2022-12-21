@@ -3,7 +3,7 @@ public class Main {
         courseWorkWithMap();
     }
     public static void courseWorkWithMap() {
-        EmployeeBook e = new EmployeeBook();
+        EmployeeBookImpl e = new EmployeeBookImpl();
         //Заполнение массива сотрудников
         e.addEmployee("Иванов", "Иван", "Иванович", (byte)5, 70_000);
         e.addEmployee("Макаров", "Владимир", "Георгиевич", (byte) 2, 100_000);
